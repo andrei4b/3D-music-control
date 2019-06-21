@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+        <android.support.v7.preference.EditTextPreference
+            android:defaultValue="192.168.1.97"
+            android:key="ip_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="IP Adress"
+            android:summary="192.168.1.97" />
+
+        <android.support.v7.preference.EditTextPreference
+            android:defaultValue="8000"
+            android:key="port_opt1_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Port number first option"
+            android:summary="8000"/>
+        <android.support.v7.preference.EditTextPreference
+            android:defaultValue="8001"
+            android:key="port_opt2_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Port number second option"
+            android:summary="8001"/>
+        <android.support.v7.preference.EditTextPreference
+            android:defaultValue="8002"
+            android:key="port_opt3_preference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Port number third option"
+            android:summary="8002"/>
+
+    <android.support.v7.preference.EditTextPreference
+        android:defaultValue="3.0"
+        android:key="x_range_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="X Range"
+        android:summary="3.0" />
+    <android.support.v7.preference.EditTextPreference
+        android:defaultValue="3.0"
+        android:key="y_range_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Y Range"
+        android:summary="3.0"/>
+    <android.support.v7.preference.EditTextPreference
+        android:defaultValue="3.0"
+        android:key="z_range_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Z Range"
+        android:summary="3.0"/>
+    <android.support.v7.preference.EditTextPreference
+        android:defaultValue="10"
+        android:key="delay_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Delay"
+        android:summary="10"/>
+
+</android.support.v7.preference.PreferenceScreen>
